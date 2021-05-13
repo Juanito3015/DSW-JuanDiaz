@@ -1,0 +1,29 @@
+header{
+    background-color: yellow;
+    padding: 20px;
+}
+nav{
+    background-color: green;
+    color: blue;
+    padding: 10px;
+}
+section{
+    
+    float: left;
+    width: 80%;
+    background-color: gray ;
+}
+aside{
+    float: left;
+    width: 20%;
+    background-color: lightseagreen;
+}
+footer{
+    background-color: plum;
+    padding: 10px;
+}
+.contenedorC::after{
+    content: "";
+    display: block;
+    clear: both;
+}
